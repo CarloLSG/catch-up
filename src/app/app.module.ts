@@ -15,6 +15,7 @@ import {MatCardModule} from "@angular/material/card";
 import {MatMenuModule} from "@angular/material/menu";
 import { MainContentComponent } from './news/components/main-content/main-content.component';
 import {NgOptimizedImage} from "@angular/common";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import {NgOptimizedImage} from "@angular/common";
     MatGridListModule,
     MatCardModule,
     MatMenuModule,
-    NgOptimizedImage
+    NgOptimizedImage,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
