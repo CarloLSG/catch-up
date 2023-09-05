@@ -16,11 +16,15 @@ import {MatMenuModule} from "@angular/material/menu";
 import { MainContentComponent } from './news/components/main-content/main-content.component';
 import {NgOptimizedImage} from "@angular/common";
 import {FormsModule} from "@angular/forms";
+import { NavComponent } from './news/components/nav/nav.component';
+import {LogoApiService} from "./shared/services/logo-api.service";
+import {NewsApiService} from "./news/services/news-api.service";
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainContentComponent
+    MainContentComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +42,7 @@ import {FormsModule} from "@angular/forms";
     NgOptimizedImage,
     FormsModule
   ],
-  providers: [],
+  providers: [LogoApiService, NewsApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
