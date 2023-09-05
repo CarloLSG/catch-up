@@ -13,10 +13,13 @@ import {MatListModule} from "@angular/material/list";
 import {MatGridListModule} from "@angular/material/grid-list";
 import {MatCardModule} from "@angular/material/card";
 import {MatMenuModule} from "@angular/material/menu";
+import { MainContentComponent } from './news/components/main-content/main-content.component';
+import {NgOptimizedImage} from "@angular/common";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MainContentComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +33,8 @@ import {MatMenuModule} from "@angular/material/menu";
     MatListModule,
     MatGridListModule,
     MatCardModule,
-    MatMenuModule
+    MatMenuModule,
+    NgOptimizedImage
   ],
   providers: [],
   bootstrap: [AppComponent]
