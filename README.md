@@ -1,5 +1,9 @@
 # CatchUp
 
+## Summary
+CatchUp News project, illustrating how to fetch and present news form a news service, with news source logo obtained from a third-party service. The project is develop using Angular Framework, TypeScript and Angular Material UI library.
+
+## About Framework
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
 
 ## Development server
